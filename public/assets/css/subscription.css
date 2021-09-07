@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-family:sans-serif;
+    font-size:32px;
+    font-weight: bold;
+    text-align: center;
+}
+h1:after{
+    content:'';
+    background:black;
+    display:block;
+    height:3px;
+    width:200px;
+    margin:15px auto;
+}
+.price-table{
+    padding:60px 0;
+}
+.single-price{
+    margin:10px auto;
+    display: inline;
+    float:left;
+    width:100%;
+    background-color:#efefef;
+    transition: 0.5s;
+}
+.single-price:hover{
+    box-shadow: 0 2px 20px #ccc;
+}
+.price-head{
+    background-color:#e93c27;
+    display:inline;
+    float:left;
+    padding:10px 5px;
+    text-align:center;
+    width:100%;
+}
+.price-head h2{
+   color:#fff;
+   font-size:30px;
+   font-weight: bold;
+   margin-bottom:0;
+   text-transform:uppercase;
+}
+.price-head h4{
+   color:#fff;
+   font-size:20px;
+   font-weight: bold;
+   margin-bottom:0;
+}
+
+.price-head p{
+    color:#ccc;
+    font-size:25px;
+    font-weight: bold;
+    line-height: 30px;
+}
+span{
+    font-size:15;
+}
+.price-content{
+    display: inline;
+    float:left;
+    width:100%;
+    padding:0 15px;
+}
+ul li{
+    border-bottom: 1px solid #fff;
+    padding: 15px 10px;
+    list-style:none;
+
+}
+ul li:last-child{
+    border:none;
+}
+.fa{
+    padding:0 10px;
+}
+.price-bottom{
+    padding:15px 15px 30px;
+    text-align:center;
+
+}
+.buy-btn{
+    background-color:#e93c27;
+    border-radius:45px;
+    color:#fff;
+    display:inline-block;
+    font-size:18px;
+    padding: 10px 15px;
+    transition:all 0.5s;
+
+}
+.buy-btn:hover{
+    border: 1px solid #fff;
+    background-color:#22bd58;
+    color:#fff;
+}
+a{
+    text-decoration:none !important;
+    color:#fff !important;
+}
+ .plan1:after{
+    margin:30px auto;
+    z-index: 1;
+    display: block;
+    width: 50%;
+    height: 3px;
+    text-align: center;
+    content: '1 Week plan';
+    background-color: #06b543;
+}
+ .plan2:after{
+    margin:30px auto;
+    z-index: 1;
+    display: block;
+    width: 50%;
+    height: 3px;
+    text-align: center;
+    content: '1 Month plan';
+    background-color: #06b543;
+}
+
+
